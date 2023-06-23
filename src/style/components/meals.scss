@@ -1,0 +1,22 @@
+.meals {
+
+    input {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
